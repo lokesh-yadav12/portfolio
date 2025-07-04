@@ -1,0 +1,97 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import Particle from "../Particle";
+import leaf from "../../Assets/Projects/matrimony.jpg";
+import emotion from "../../Assets/Projects/emotion.png";
+import editor from "../../Assets/Projects/travel.jpg";
+import chatify from "../../Assets/Projects/doctor.jpg";
+import suicide from "../../Assets/Projects/suicide.png";
+import bitsOfCode from "../../Assets/Projects/forever.jpg";
+
+function Projects() {
+  return (
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          My Recent <strong className="purple">Works </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="DoctorSched"
+              description="DoctorSched is a web-based application designed to simplify and digitize the doctor appointment booking process for clinics, hospitals, or private practices. It allows patients to book appointments with available doctors, view schedules, and receive confirmations—eliminating manual paperwork and long queues."
+              ghLink="https://doctor-sched.vercel.app/"
+              demoLink="https://doctor-sched.vercel.app/" 
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="forever"
+              description="forever  is a fully responsive e-commerce platform built for modern fashion brands. It offers a seamless online shopping experience with dynamic product listings, cart management, and smooth navigation across all devices."
+              ghLink="https://github.com/lokesh-yadav12/forever"
+              // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Travel-website"
+              description="ExploreEase is a dynamic travel website that helps users discover beautiful destinations, book trips, and explore experiences across the globe. It offers an engaging UI and smooth navigation to inspire travel and simplify the booking process."
+              ghLink="https://github.com/lokesh-yadav12/Travel-website"
+              demoLink="https://travel-website-five-sable.vercel.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Matrimonial-site"
+              description="Sukh-vivah is a responsive matrimonial web platform that connects individuals looking for meaningful relationships. It allows users to create detailed profiles, search for matches based on preferences, and communicate securely within the platform."
+              ghLink="https://github.com/lokesh-yadav12/Matrimonial-site"
+              demoLink="https://matrimonial-site-umber.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Ai For Social Good"
+              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              ghLink="https://github.com/lokesh-yadav12"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Face Recognition and Emotion Detection"
+              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
+              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              ghLink="https://github.com/lokesh-yadav12"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+
+export default Projects;
