@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/travel.jpg";
 import chatify from "../../Assets/Projects/doctor.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/forever.jpg";
-import fram from "../../Assets/Projects/farming1.webp";
+import farm from "../../Assets/Projects/farming1.webp";
 import school from "../../Assets/Projects/school.webp";
 function Projects() {
   return (
