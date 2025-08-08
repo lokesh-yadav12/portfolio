@@ -21,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+      <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="ClothNest"
+              description="ClothNest  is a fully responsive e-commerce platform built for modern fashion brands. It offers a seamless online shopping experience with dynamic product listings, cart management, and smooth navigation across all devices."
+              ghLink="https://github.com/lokesh-yadav12/forever"
+               demoLink="https://cloth-nest-iota.vercel.app/"
+            />
+          </Col>
+            
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -33,16 +45,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="forever"
-              description="forever  is a fully responsive e-commerce platform built for modern fashion brands. It offers a seamless online shopping experience with dynamic product listings, cart management, and smooth navigation across all devices."
-              ghLink="https://github.com/lokesh-yadav12/forever"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
+        
 
           <Col md={4} className="project-card">
             <ProjectCard
