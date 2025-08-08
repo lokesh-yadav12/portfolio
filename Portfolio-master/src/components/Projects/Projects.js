@@ -58,6 +58,29 @@ function Projects() {
             />
           </Col>
 
+
+             <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="AtoZfarming"
+              description="AtoZ Farming is a comprehensive, full-stack agricultural platform built with React, Node.js, and MongoDB. It offers farmers a range of smart tools like crop disease detection, weather forecasting, marketplace integration, and AI-powered recommendations. Designed for ease of use and scalability, the site empowers users with technology-driven solutions for better farming decisions and productivity."
+              ghLink="https://github.com/lokesh-yadav12/AtoZfarming"
+              demoLink="https://ato-zfarming.vercel.app/"
+            />
+          </Col>
+
+                 <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Shiv-School"
+              description="A responsive, modern school website built with React and Tailwind CSS, highlighting academics, facilities, and community. It features admissions, faculty, events, announcements, and a gallery with lightbox. With smooth Framer Motion animations and easy navigation, it offers a clean UI and scalability for future enhancements, creating a strong digital presence for the school."
+              ghLink="https://github.com/lokesh-yadav12/Shiv-school"
+              demoLink="https://shiv-school.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
