@@ -46,6 +46,16 @@ function Projects() {
             />
           </Col>
 
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={farm}
+              isBlog={false}
+              title="AtoZfarming"
+              description="AtoZ Farming is a comprehensive, full-stack agricultural platform built with React, Node.js, and MongoDB. It offers farmers a range of smart tools like crop disease detection, weather forecasting, marketplace integration, and AI-powered recommendations. Designed for ease of use and scalability, the site empowers users with technology."
+              ghLink="https://github.com/lokesh-yadav12/AtoZfarming"
+              demoLink="https://ato-zfarming.vercel.app/"
+            />
+          </Col>
         
 
           <Col md={4} className="project-card">
@@ -60,16 +70,7 @@ function Projects() {
           </Col>
 
 
-             <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={farm}
-              isBlog={false}
-              title="AtoZfarming"
-              description="AtoZ Farming is a comprehensive, full-stack agricultural platform built with React, Node.js, and MongoDB. It offers farmers a range of smart tools like crop disease detection, weather forecasting, marketplace integration, and AI-powered recommendations. Designed for ease of use and scalability, the site empowers users with technology-driven solutions for better farming decisions and productivity."
-              ghLink="https://github.com/lokesh-yadav12/AtoZfarming"
-              demoLink="https://ato-zfarming.vercel.app/"
-            />
-          </Col>
+             
 
                  <Col md={4} className="project-card">
             <ProjectCard
