@@ -30,7 +30,7 @@ function Projects() {
               imgPath={blog}
               isBlog={false}
               title="Blog-App"
-              description="Blog App — A feature-rich blogging platform built with Next.js and TypeScript, offering a clean and responsive UI. Users can explore posts and leave comments.  the app ensures smooth navigation and an engaging reading experience on all devices."
+              description="Blog App — A feature-rich blogging platform built with Next.js and TypeScript, offering a clean and responsive UI. Users can explore posts, save their favorite articles, and leave comments. Designed with modern UI principles using Tailwind CSS, the app ensures smooth navigation and an engaging reading experience on all devices."
               ghLink="https://github.com/lokesh-yadav12/Blog-app"
                demoLink="https://blog-app-taupe-beta.vercel.app/"
             />

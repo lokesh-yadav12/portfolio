@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />
               I am fluent in classics like{" "}
-              <strong className="purple">C++ and JavaScript</strong>.
+              <strong className="purple">C++ ,React.js and JavaScript</strong>.
               <br />
               <br />
               My field of Interest is building new{" "}
