@@ -11,7 +11,7 @@ import bitsOfCode from "../../Assets/Projects/forever.jpg";
 import farm from "../../Assets/Projects/farming1.webp";
 import school from "../../Assets/Projects/school.webp";
 import Ezchef from "../../Assets/Projects/image.png";
-
+import blog from "../../Assets/Projects/blof.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -24,6 +24,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+      <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="Blog-App"
+              description="Blog App — A feature-rich blogging platform built with Next.js and TypeScript, offering a clean and responsive UI. Users can explore posts and leave comments.  the app ensures smooth navigation and an engaging reading experience on all devices."
+              ghLink="https://github.com/lokesh-yadav12/Blog-app"
+               demoLink="https://blog-app-taupe-beta.vercel.app/"
+            />
+          </Col>
 
      <Col md={4} className="project-card">
             <ProjectCard
