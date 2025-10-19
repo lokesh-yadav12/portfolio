@@ -11,7 +11,7 @@ import bitsOfCode from "../../Assets/Projects/forever.jpg";
 import farm from "../../Assets/Projects/farming1.webp";
 import school from "../../Assets/Projects/school.webp";
 import Ezchef from "../../Assets/Projects/image.png";
-import blog from "../../Assets/Projects/blof.png";
+import blog from "../../Assets/Projects/blog.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
